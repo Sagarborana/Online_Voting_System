@@ -1,0 +1,133 @@
+body{
+	margin:0;
+	font-size:30px;
+	background-image: url("images/flag.jpg");
+	background-repeat: no-repeat;
+	background-size: cover;
+	font-family: Arial, Helvetica, sans-serif;
+}
+
+.nav-bar{
+	overflow:hidden;
+	display: flex;
+	justify-content: right;
+	padding: 15px;
+	background-color: #FF731D;
+	color: #FFF7E9;
+	font-size: 25px;
+}
+
+.nav-bar a{
+	margin-left: 30px;
+	margin-right: 20px;
+	color:white;
+	cursor:pointer;
+}
+
+.form-container{
+	width:25%;
+	height:5%;
+	background-color:#FFF7E9;
+	border-radius:40px;
+	margin-left:80px;
+	margin-top:80px;
+	padding-top:80px;
+	padding-bottom:80px;
+	padding-right: 50px;
+	align-items:center;
+}
+#register-form{
+	font-size:25px;
+	padding: 20px;
+}
+
+.form-container h4{
+	margin-left:12%;
+}
+.form-elements{
+	font-size:22px;
+	margin-left:15%;
+	margin-top:20px;
+	margin-bottom:20px;
+	border:2px;
+	border-radius:30px;
+	height:30px;
+}
+.form-label{
+	font-size:25px;
+}
+.form-input{
+	text-align:center;
+	background-color:#5F9DF7;
+	width:80%;
+}
+.form-button{
+	background-color:#5F9DF7;
+	width:80%;
+	font-size:25px;
+	cursor:pointer;
+}
+.admin{
+	font-size:25px;
+	text-align:center;
+	padding-left:12%;
+} 
+
+.about{
+	font-family: Helvetica;
+	width:100vx;
+	height:80vh;
+	padding-left:20px;
+	opacity:0.8;
+	background-color: #FFF7E9;	
+}
+.about p{
+	padding-top:40px;
+	font-weight:bold;
+}
+.about img{
+	width:400px;
+	height:350px;
+	margin-right:10px;
+}
+.result{
+	margin:20px;
+	background-color:white;
+	border:1px solid ;
+}
+.result td,th{
+	text-align:center;
+	border: 1px solid;
+	padding: 5px;
+	font-size:0.8em;
+}
+.result img{
+	height: 100px;
+	width:100px;
+}
+
+ .check{
+            background-color: #5F9DF7;
+            border: 2px solid black;
+            border-radius:10px;
+            color:black;
+            padding: 5px 10px;
+            text-align: center;
+            display: inline-block;
+            font-size: 20px;
+            margin: 10px 30px;
+            cursor: pointer;
+            text-decoration:none;
+        }
+.warn{
+	width:15%;
+	height:5%;
+	background-color:#FFF7E9;
+	border-radius:40px;
+	margin:10%;
+	padding:30px 50px;
+	
+	justify-content:center;
+	align-items:center;
+}
+        
